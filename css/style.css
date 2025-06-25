@@ -1,0 +1,33 @@
+*{
+    font-family: "open sans",sans-serif ;
+}
+h1, h2, h3, h4{
+    font-family: "Oswald", sans-serif;
+}
+body{
+    margin: 0px;
+}
+
+#banner{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/banner/visao-geral-museu-bahia-nautico-em-salvdor-brasil-sob-ceu-azul-nublado.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    height: calc(100vh - 180px);
+}
+
+.footer-banner{
+    height: 180px;
+    width: 100%;
+    background: url(../img/banner/gorki3.png);
+    background-position: center;
+}
