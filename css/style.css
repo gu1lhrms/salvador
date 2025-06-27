@@ -92,3 +92,51 @@ background-color: white;
 text-align: center;
 padding: 3px 10px;
 }
+
+.largura-padrao{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.w-50{
+    width: 50%;
+    padding: 30px;
+}
+
+.item-produtos{
+    padding: 8px;
+    background-color: rgb(248, 248, 248);
+    margin-top: 31px;
+    margin-bottom: 30px;
+    box-shadow:5px 8px 8px rgb(163, 162, 162);
+    border-radius: 5px;
+    display: flex;
+    border: 1px rgb(190, 190, 190) solid;
+
+
+}
+
+.item-produtos i{
+    background-color: #015c97;
+    border-radius: 5px;
+    padding: 11px;
+    width: 38px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.8rem;
+
+
+}
+
+.social{
+    display: flex;
+    font-size: 2rem;
+}
+.social1{
+    padding: 18px;
+    width: 10px;
+}
